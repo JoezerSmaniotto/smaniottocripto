@@ -1,0 +1,77 @@
+body{
+
+	background-color: black;
+}
+
+#navbar{
+	background-color: 
+	font-size: 20px;
+	text-align: right;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 20px 20px 20px 20px;
+
+}
+
+a {
+	padding: 5px;
+}
+
+#main{
+
+	height: calc(100vh-64-55)
+    font-size: 20px;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;	
+}
+
+#linha {
+  width: 100%;
+  border-bottom: 1px solid #111111;
+
+}
+
+#footer{
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+}
+
+hr{
+  border-color:#aaa;
+  box-sizing:border-box;
+  width:100%;  
+}
+
+
+.imagem{
+
+
+	/*background-image: url("../imgs/btc.jpg");
+	background-position:100%;
+    background-size: cover;*/
+
+    background-image:url('../imgs/btc1.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+
+
+	/*background-image: url('../imgs/btc1.jpg');        
+    background-repeat: no-repeat;        
+    position: relative;        
+    width: 85%;            
+    height: 610px;       
+    margin-left: auto;      
+    margin-right: auto;*/
+
+}
+
+table{
+	
+  padding: .7em;
+  margin: 4em;
+  /*border: 1px solid #ccc;*/
+  text-align: center;
+}
+

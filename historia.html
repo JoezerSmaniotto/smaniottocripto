@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+	 	<meta name="description" content="Bitcoin">
+		<meta name="keywords" content="HTML,CSS,JavaScript">
+		<meta name="author" content="Joezer Smaniotto">
+		<link rel="shortcut icon" href="imgs/avatar.png">
+		<!--  Deixa o Site apactado em cada Lugar, para as letras não ficar pequenas  -->		
+		 <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0" >
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		
+		<!-- MEU CSS -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- LINK LETRA GOOGLE -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+		<title>Bitcoin</title>
+	</head>
+
+	<body class="imagem">
+		
+		<!-- navbar -->
+		
+		<div class="container-fluid" id="navbar">
+	        <div class="row">
+       		    <div class="col-sm-12">
+							<a href="index.html">Bitcoin</a>						
+							<a href="historia.html">Historia</a>						
+							<a href="vantagens.html">Vantagens</a>
+							<a href="aprenda.html">Aprenda</a>
+							<a href="contato.html">Contato</a>							
+				</div>
+
+			</div>
+		</div>		
+
+		<!-- fim navbar -->
+
+		<!-- Main -->
+		<div class="container-fluid" id="main">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2>História</h2>
+						<div">
+
+							Bitcoin (símbolo: ₿; BTC) é uma criptomoeda descentralizada, constituindo um sistema econômico alternativo (peer-to-peer electronic cash system). Inicialmente apresentada em 2008 na lista de discussão The Cryptography Mailing por um programador ou grupo de programadores sob o pseudônimo Satoshi Nakamoto, é considerada a primeira moeda digital mundial descentralizada, e responsável pelo ressurgimento do sistema bancário livre.
+							<br>
+							O Bitcoin permite transações financeiras sem intermediários, mas verificadas por todos usuários (nodos) da rede, que são gravadas em um banco de dados distribuídos, chamado de blockchain.
+							<br>
+							A rede descentralizada ou sistema econômico alternativo Bitcoin possui a topologia ponto-a-ponto (peer-to-peer ou P2P), isto é, uma estrutura sem uma entidade administradora central, o que torna inviável qualquer autoridade financeira ou governamental manipular a emissão e o valor de bitcoins ou induzir a inflação com a produção de mais dinheiro. No entanto, grandes movimentos especulativos de oferta e demanda influenciam na oscilação de seu valor no mercado de câmbio, sendo definido livremente durante as 24 horas do dia.[15] Isto é, o valor da criptomoeda não deriva de moedas fiduciárias ou outros bens, isto é, não é lastreado por nenhum ativo; Bitcoin é a mercadoria, é o ativo em si sem precedentes.
+							<br>
+							No âmbito financeiro e contabilístico internacional, semelhante ao ouro, o Bitcoin pode ser enquadrado em alguns termos: ativo especulativo (bem material), dinheiro commodity (mercadoria), unidade de conta (bem de troca) - por ser empregado como meio de troca e por possuir uma escassez relativa além de cotação própria - que agregada a abreviatura XBT tenta enquadrar-se na ISO 4217, código que representa moedas correntes.
+
+							<h3>Tecnologia por tras do Bitcoin Blockchain</h3>
+
+							A tecnologia Blockchain ("Cadeia de Blocos" em inglês) é um tipo de banco de dados distribuído, que tem a função de livro-razão de contabilidade pública (saldos e transações de contas), onde são registradas as transações bitcoin. Esta tecnologia permite que esses dados sejam transmitidos entre todos os participantes da rede (nós P2P) de maneira descentralizada e transparente. Dessa maneira, não é necessária a confiança em um terceiro ou entidade central para que os dados de contabilidade estejam corretos e não sejam fraudados. O blockchain é um livro público de transações, apesar de ter algumas informações anônimas — o bitcoin está associado a um número que somente seu proprietário conhece — basta uma conversão para um câmbio não virtual que tudo fica às claras.
+
+							Cada transação do tipo "pagador X enviou Y bitcoins para o recebedor Z" é transmitida para a rede através de um software e, validada por mineradores, que verificam todas as transações. Caso seja válida, adicionam a transação bitcoin no próximo bloco da cadeia de blocos, a cada 10 minutos. A cadeia de blocos recebe o novo bloco contendo todas as transações recentes, incluindo a transação com a informação de que o recebedor Z agora tem +Y bitcoins e o pagador X tem -Y bitcoins.
+
+							Mais especificamente, cada nó gerador da rede procura por transações ainda não presentes na blockchain em um bloco candidato, que possua o identificador hash criptográfico de um bloco válido anterior conhecido por este nó. Então ele tenta produzir um hash criptográfico em outro bloco com características únicas, sendo um serviço que requer um enorme poder de processamento computacional e quantidade previsível de repetidas tentativas e erros. Quando um nó encontra tal solução criptográfica, ele informa o resultado para os outros nós da rede, validando a transação e, recebe 25 novas moedas como forma de pagamento pelo “empréstimo” do poder computacional.
+
+							Eventualmente, a blockchain conterá a história de toda a transação e propriedade criptográfica de todas as bitcoins desde o endereço criador até o último endereço atual. As informações registradas na blockchain são imutáveis e seguras e,[15] para reduzir o espaço de armazenagem e aumentar a segurança, são usadas Árvores de Merkle. Portanto, se um usuário tenta reusar moedas já gastas ("gasto duplo"), a rede irá rejeitar a transação.
+
+							<h4>Mineração (geração de bitcoins)</h4>
+
+							A rede Bitcoin cria e distribui um novo lote de bitcoins aproximadamente 6 vezes por hora aleatoriamente entre participantes que estão rodando o programa de mineração de criptomoedas, onde qualquer participante minerador tem chance de ganhar um lote. O ato de gerar bitcoins é comumente chamado de "minerar" (em referência a "mineração do ouro"). A probabilidade de um certo minerador ganhar um lote depende do poder de processamento computacional com que ele contribui para a rede Bitcoin em relação aos outros. A quantia de bitcoins geradas por lote nunca passa de 50 BTC, e esse valor está programado no protocolo bitcoin para diminuir com o passar do tempo, de modo que o total de bitcoins criadas nunca ultrapasse 21 milhões de unidades BTC. Com a redução desse prêmio, espera-se que a motivação para se rodar nó gerador (computador executando um programa de mineração) mudará para o recebimento de taxas de transação. No caso do Bitcoin, o algoritmo utilizado no emprego do sistema de prova-de-trabalho é o SHA-256.
+
+							Todos os nós mineradores da rede disputam para ser o primeiro a achar uma solução do desafio criptográfico envolvendo seu bloco candidato na blockchain, um problema que requer poder computacional e repetidas tentativas para ser resolvido. Quando um nó encontra tal solução criptográfica, anuncia aos demais nós da rede e reivindica um prêmio em bitcoins. Ao receber um bloco recém resolvido, validam-no e o adicionam na cadeia de blocos do blockchain.
+
+							Os nós usam suas CPU com o cliente padrão, e clientes de terceiros são capazes também de utilizar GPU.[68][69] Mineradores também podem se juntar em grupos de mineração (conhecidos como "pools" em inglês) e minerar coletivamente.
+
+							Existem empresas como por exemplo a HashCoinBrasil que oferece cotas de mineração. Ou seja, o interessado adquire uma ou mais cotas por um valor especifico e possuindo essa cota tem o direito do lucro obtido da mineração com o grupo todo, um exemplo de mineração coletiva.
+
+							Para que a rede gere um bloco novo a cada 10 minutos em média, cada nó separadamente reajusta o nível de dificuldade do criptodesafio a cada duas semanas em resposta a mudanças no poder de processamento coletivo da rede.
+
+							Atualmente, a mineração de bitcoins é uma área altamente competitiva, com hardware especializado vendido no mercado. Com a crescente dificuldade dos desafios criptográficos, tornou-se economicamente inviável utilizar CPUs para a mineração (pois a energia elétrica consumida custa mais que a recompensa em bitcoins gerada), e futuramente também as GPUs tornar-se-ão completamente obsoletas para esse propósito. Por este motivo, vários mineradores passaram a utilizar também circuitos integrados de aplicação específica (ASIC) para a mineração de bitcoins. Algumas empresas comercializam sistemas ASIC prontos para a mineração, com preços entre 250 e 2500 dólares.
+
+							Em 4 de Agosto de 2018, a taxa hash do Bitcoin atingiu o marco de 52 trilhões hashes por segundo, um número nunca visto antes. O recorde anterior foi atingido em Junho de 2018, com 40 trilhões de hashes por segundo. <br> <br>
+
+							<p>Saiba Mais</p>	
+							<iframe width="65%" height="315" src="https://www.youtube.com/embed/4bzUWf77G-g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+	
+														
+						</div>
+										
+				</div>				
+			</div>
+		</div>									
+		<!-- Fim Main -->
+
+		<!-- Rodapé -->
+		<div class="container container-box corb" id="footer">
+	     	 <div class="row">
+	        	<div class="col-sm-12">
+						
+	        	<br><h6><hr/>Copyright © 2018 SmaniottoCripto</h6>
+
+	        	</div>	
+	       	</div> 	
+	     </div>
+
+		<!-- Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	</body>
+
+</html>
