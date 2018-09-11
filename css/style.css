@@ -18,7 +18,7 @@ a {
 
 #main{
 
-	height: calc(100vh-64-55)
+	height: calc(100vh - 64px - 55px);
     font-size: 20px;
 	text-align: center;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -75,3 +75,15 @@ table{
   text-align: center;
 }
 
+.texto{
+	
+	display:inline-block;
+	height: 500px;
+	box-sizing: border-box;
+	background-color: white;
+	color: black;
+	/*overflow: auto;*/
+	opacity: 1.0;	;
+	overflow: scroll;
+	
+}
