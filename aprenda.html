@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="pt-BR">
 	<head>
 		<meta charset="UTF-8">
 	 	<meta name="description" content="Bitcoin">
 		<meta name="keywords" content="HTML,CSS,JavaScript">
 		<meta name="author" content="Joezer Smaniotto">
 		<link rel="shortcut icon" href="imgs/avatar.png">
+		<link rel="stylesheet" type="text/css" href="">
 		<!--  Deixa o Site apactado em cada Lugar, para as letras não ficar pequenas  -->		
 		 <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0" >
 		<!-- Bootstrap CSS -->
@@ -24,19 +25,20 @@
 	<body>
 		
 		<!-- navbar -->
-		
 		<div class="container-fluid" id="navbar">
 	        <div class="row">
-       		    <div class="col-sm-12">
-							<a href="index.html">Bitcoin</a>						
-							<a href="historia.html">Historia</a>						
-							<a href="vantagens.html">Vantagens</a>
-							<a href="aprenda.html">Aprenda</a>
-							<a href="contato.html">Contato</a>							
+       		    <div class="col-sm-12 d-flex justify-content-between align-items-center">
+					<img class="img-logo" src="imgs/avatar.png" alt="Logo BTC">	
+					<div>			
+						<a href="index.html">Bitcoin</a>						
+						<a href="historia.html">Historia</a>							
+						<a href="vantagens.html">Vantagens</a>
+						<a id="color-navbar" href="aprenda.html">Aprenda</a>
+						<a href="contato.html">Contato</a>
+					</div>	
 				</div>
-
 			</div>
-		</div>		
+		</div>			
 
 		<!-- fim navbar -->
 
@@ -46,17 +48,27 @@
 				<div class="col-sm-12">	
 					<h2>Tem interesse em Aprender Mais Acompanhe</h2>
 						<div">
-						<br>
 							<table border="1px" bordercolor="#FF0000">
+								<tr>
+									<th scope="col">
+										Meio
+									</th>
+									<th scope="col">
+										Nome
+									</th>
+									<th scope="col">
+										Conteudo
+									</th>
+								</tr>
 								
-								 <tr><td>Valor De Mercado</td> <td><a href="https://coinmarketcap.com/">Coinmarketcap</a></td> <td>O coinmarketcap apresenta todas as Criptomoedas do Mercado Mundial Com seu valor de mercado, qtd total de moedas</td></tr>
-								 <tr><td>Informação</td> <td><a href="http://radarbtc.com.br/">RadarBtC</a></td><td>O radarbtc apresenta todoas as notícias mundial do mercado de Criptos</td></tr>
-								 <tr><td>Youtube</td> <td><a href="https://www.youtube.com/channel/UCLJkh3QjHsLtK0LZFd28oGg">Fernando Ulrich</a></td> <td> Fernando Ulrich é mestre em economia e apresenta temas tecnicos sobre o mercado de criptos em especial o BTC</td> </tr>
-								 <tr><td>Youtube</td> <td><a href="https://www.youtube.com/channel/UCEkg0hhWS_oxD24f_6C9Qbw">Criptomaniacos</a></td> <td>Guilherme apresentador do canal expõe analises de projetos e do Mercado cripto Mundial</td> </tr>
-								 <tr><td>Youtube</td> <td><a href="https://www.youtube.com/channel/UCo-dGr7jcHm3Kps2U2ujEdQ">59segundos</a></td> <td>Charles apresentador do canal expõe analises de projetos e do Mercado Mundial</td>  </tr>
-								 <tr><td>Youtube</td> <td><a href="https://www.youtube.com/channel/UCxOrWpTOTPZxM06YQ-Mk6XA">Cryoto Insights</a></td> <td>Guilherme apresentador do canal expõe analises de projetos do Mercado Mundial</td> </tr>
-								 <tr><td>Youtube</td> <td><a href="https://www.youtube.com/user/comstop">Enfoque</a></td> <td>Fausto Botelho é apresentador do canal, este por sua vez Trader desde 1978, utilizando Análise Técnica para tentar prever movimentos do mercado</td> </tr> 
-								 <tr><td>Youtube</td> <td><a href="https://www.youtube.com/channel/UCT50TWqh-Z5eo6DKJSabOMA">Bitnada</a></td> <td>Felipe é apresentador do canal e entusiasta do BTC, expõe diarimanete Análise Técnica para tentar prever movimentos do mercado e notícias do mundo cripto	</td> </tr>
+								 <tr><td>Valor De Mercado</td> <td><a  target="_blank" href="https://coinmarketcap.com/">Coinmarketcap</a></td> <td>O coinmarketcap apresenta todas as Criptomoedas do Mercado Mundial Com seu valor de mercado, qtd total de moedas</td></tr>
+								 <tr><td>Informação</td> <td><a  target="_blank" href="http://radarbtc.com.br/">RadarBtC</a></td><td>O radarbtc apresenta todoas as notícias mundial do mercado de Criptos</td></tr>
+								 <tr><td>Youtube</td> <td><a  target="_blank" href="https://www.youtube.com/channel/UCLJkh3QjHsLtK0LZFd28oGg">Fernando Ulrich</a></td> <td> Fernando Ulrich é mestre em economia e apresenta temas tecnicos sobre o mercado de criptos em especial o BTC</td> </tr>
+								 <tr><td>Youtube</td> <td><a  target="_blank" href="https://www.youtube.com/channel/UCEkg0hhWS_oxD24f_6C9Qbw">Criptomaniacos</a></td> <td>Guilherme apresentador do canal expõe analises de projetos e do Mercado cripto Mundial</td> </tr>
+								 <tr><td>Youtube</td> <td><a  target="_blank" href="https://www.youtube.com/channel/UCo-dGr7jcHm3Kps2U2ujEdQ">59segundos</a></td> <td>Charles apresentador do canal expõe analises de projetos e do Mercado Mundial</td>  </tr>
+								 <tr><td>Youtube</td> <td><a  target="_blank" href="https://www.youtube.com/channel/UCxOrWpTOTPZxM06YQ-Mk6XA">Cryoto Insights</a></td> <td>Guilherme apresentador do canal expõe analises de projetos do Mercado Mundial</td> </tr>
+								 <tr><td>Youtube</td> <td><a  target="_blank" href="https://www.youtube.com/user/comstop">Enfoque</a></td> <td>Fausto Botelho é apresentador do canal, este por sua vez Trader desde 1978, utilizando Análise Técnica para tentar prever movimentos do mercado</td> </tr> 
+								 <tr><td>Youtube</td> <td><a  target="_blank" href="https://www.youtube.com/channel/UCT50TWqh-Z5eo6DKJSabOMA">Bitnada</a></td> <td>Felipe é apresentador do canal e entusiasta do BTC, expõe diarimanete Análise Técnica para tentar prever movimentos do mercado e notícias do mundo cripto	</td> </tr>
 																	
 							</table>	
 																					
@@ -67,8 +79,8 @@
 		<!-- Fim Main --> 
 
 		<!-- Rodapé -->
-		<div class="container container-box corb" id="footer">
-	     	 <div class="row">
+		<div class="container container-box corb  pt-5" id="footer"> <!--fixed-bottom*/-->
+	     	 <div class="row ">
 	        	<div class="col-sm-12">
 						
 	        	<br><h6><hr/>Copyright © 2018 SmaniottoCripto</h6>

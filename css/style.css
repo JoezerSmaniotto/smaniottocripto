@@ -3,12 +3,18 @@ body{
 	background-color: black;
 }
 
+input {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 #navbar{
 	background-color: 
 	font-size: 20px;
 	text-align: right;
 	font-family: 'Roboto Condensed', sans-serif;
-	padding: 20px 20px 20px 20px;
+	padding: 15px 15px 20px 20px;
+	/*background-color: #6EC99A;*/
 
 }
 
@@ -18,7 +24,7 @@ a {
 
 #main{
 
-	height: calc(100vh - 64px - 55px);
+	height: calc(100vh - 90px - 84px);
     font-size: 20px;
 	text-align: center;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -73,12 +79,13 @@ table{
   margin: 4em;
   /*border: 1px solid #ccc;*/
   text-align: center;
+  background-color: #313131;
 }
 
 .texto{
 	
 	display:inline-block;
-	height: 500px;
+	height: 400px;
 	box-sizing: border-box;
 	background-color: white;
 	color: black;
@@ -87,3 +94,37 @@ table{
 	overflow: scroll;
 	
 }
+
+.img-logo {
+  width: 50px;
+  height: 50px;
+}
+
+
+a:hover{
+
+	color:white;
+
+}
+
+#color-navbar{
+	color: red;
+}
+
+th{
+	color: yellow;
+}
+
+/*Tabela fica mescada suas cores*/
+li { 
+	background: green; 
+}
+li:nth-child(odd) {
+ background: red;
+ }
+
+.font-hist{
+	font-weight: bold;
+	font-family: 'Merriweather', serif;
+}
+
